@@ -38,12 +38,20 @@
 	</form:form>
 	
 	<p>
-		${username} &nbsp; ${password}
+		<!-- 방법1. Sec 적용(이름 출력) -->
+		방법(sec 태그)1: <sec:authentication property="name" />
+	</p>
+	<p>
+		<!-- 방법2. c태그, Controller에서 가져오기 -->
+		방법(Model 정의)2: ${username}
 	</p>
 </sec:authorize> 
 
 <h3>
+<!-- 관리자 권한을 가진 경우만 보이기 -->
+<sec:authorize access="hasRole('ROLE_ADMIN')" >
 	<a href="<c:url value="/admin/home" />">관리자 홈</a>&nbsp;&nbsp;
+</sec:authorize>
 	<a href="<c:url value="/encode-password?password=pass" />">비밀번호</a>
 </h3>
 
