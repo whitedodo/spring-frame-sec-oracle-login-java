@@ -30,7 +30,7 @@ Spring Framework 5 MVC, Spring Security 5.4, Oracle 기반의 로그인 프로�
 ##### (Implemented in Java method, and web.xml, root-context.xml, app-servlets.xml, /src/main/webapp/WEB-INF/spring folder are removed.)
 
 ### 2. 시연(Demonstration)
-##### 1. 
+##### 1. Spring Framework 5.4, Spring-Security 5.4, Oracle 19g - Java version, https://youtu.be/T97syoHcCQM, Accessed by 2020-09-27, Last Modified 2020-09-27.
 
 ### 3. 참고자료(Reference)
 ##### 1. Maven Repository: Search/Browse/Explore, https://mvnrepository.com/, Accessed by 2020-09-27, Last Modified .
